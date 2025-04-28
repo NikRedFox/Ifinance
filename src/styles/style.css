@@ -4,12 +4,12 @@
 header{
     display: flex;
     width: 100%;
-    padding: 16px 143px 16px 136px;
+    padding: 16px 200px 16px 200px;
     align-items: center;   
-    gap: 76px; 
+    gap: 220px; 
 }
 
-main{
+body{
     background-color: var(--color-background);
 }
 
@@ -72,7 +72,7 @@ main{
     font-size: var(--btn-text);
     font-weight: var(--btn-weight);
     color: var(--color-neutral-white);
-    background-color: var(--color-primary-blue);
+    background-color: var(--btn-primary);
     width: 220px;
     height: 52px;
     border-radius: 5px;
@@ -86,8 +86,8 @@ main{
 
 .button-container button:hover{
     background-color: var(--color-neutral-white);
-    color: var(--color-primary-blue);
-    box-shadow: 0px 0px 10px var(--color-filter);    
+    color: var(--btn-primary);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);    
     font-weight: 700;
     cursor: pointer;   
 }
@@ -100,7 +100,7 @@ main{
 .menu-bar{
     width: 30px;
     height: 5px;
-    background-color:  var(--color-neutral-white);
+    background-color: var(--color-neutral-white);
     border-radius: 10px;
 }
 
@@ -110,9 +110,7 @@ main{
 main{
     display: flex;
     padding: 40px 136px 0px 136px;
-    background-color: var(--color-filter);
     color: var(--color-neutral-white);
-    gap: 60px;
 }
 
 .main-text-container{
@@ -141,7 +139,7 @@ main{
 .main-btn-blue{
     width: 187px;
     height: 52px;
-    background-color: var(--color-primary-blue);
+    background-color: var(--btn-primary);
     font-size: var(--btn-text);
     font-weight: var(--btn-weight);
     border-radius: 37px;
@@ -152,7 +150,7 @@ main{
 
 .main-btn-blue:hover{
     transform: translateY(-10px);
-    box-shadow: 0px 10px 10px var(--color-filter);    
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);    
     font-weight: 700;
     cursor: pointer;
 }
@@ -172,7 +170,7 @@ main{
 
 .main-btn-no-bg:hover{
     transform: translateY(-10px);
-    box-shadow: 0px 10px 10px var(--color-filter);    
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);    
     font-weight: 700;
     cursor: pointer;
 }
