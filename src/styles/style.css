@@ -11,6 +11,7 @@ header{
 
 body{
     background-color: var(--color-background);
+    color: var(--color-neutral-white);
 }
 
 .header-container{
@@ -65,7 +66,6 @@ body{
     font-weight: 700;
     cursor: pointer;
 }
-
 
 .button-container button{
     display: flex;
@@ -176,3 +176,110 @@ main{
 }
 
 /* Main */
+
+/* Better Strategy */
+.better-strategy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 69px;
+    margin-bottom: 100px;
+}
+
+.better-text{
+    gap: 10px;
+}
+
+.better-text h2{
+    text-align: center;
+    font-size: var(--headline2);
+    line-height: var(--line-height-h2);
+    font-weight: var(--headline2-weight);
+}
+
+.better-text p{
+    text-align: center;
+    color: var(--color-text);
+    font-size: var(--paragraph);
+    line-height: var(--line-height-p);
+    font-weight: var(--paragraph-weight);
+}
+
+.better-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.grid-card{
+    display: flex;
+    gap: 19px;
+    padding: 35px 27px 35px 20px;
+    border: 1px solid var(--color-border);
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-text p{
+    width: 240px;
+}
+/* Better Strategy */
+
+/* What Clients */
+.what-clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+    gap: 80px;
+}
+
+.what-title{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.what-title h2{
+    font-size: var(--headline2);
+    font-weight: var(--headline2-weight);
+    line-height: var(--line-height-h2);
+}
+
+.what-title p{
+    font-size: var(--paragraph);
+    font-weight: var(--paragraph-weight);
+    line-height: var(--line-height-p);
+}
+
+.regina-box{
+    background-color: var(--color-neutral-white);
+    width: 744px;
+    height: 362px;
+    padding: 40px 35px;
+    border-radius: 5px;
+}
+
+.regina-box h3{
+    font-size: var(--headline3);
+    font-weight: var(--headline3-weight);
+    line-height: var(--line-height-h3);
+    color: black;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+.regina-box img:nth-of-type(1){
+    margin-bottom: 30px;
+}
+
+.regina-box p{
+    color: var(--color-text);
+    margin-bottom: 15px;
+}
+/* What Clients */
+
