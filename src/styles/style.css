@@ -284,7 +284,61 @@ main{
 /* What Clients */
 
 /* Download */
+.download-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    margin-top: 159px;
+}
 
+.download-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.download-title h2{
+    font-size: var(--headline2);
+    font-weight: var(--headline2-weight);
+    line-height: var(--line-height-h2);
+}
+
+.download-title p{
+    font-size: var(--paragraph);
+    font-weight: var(--paragraph-weight);
+    line-height: var(--line-height-p);
+}
+
+.app-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.app-container{
+    display: flex;
+    gap: 25px;
+    border: 1px solid var(--color-border2);
+    padding: 18px 28px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.app-text p{
+    width: 130px;
+    text-align: start;
+    font-size: var(--btn-text);
+    font-weight: var(--btn-weight);
+    line-height: var(--line-height-btn);
+}
+
+.app-text span{
+    font-size: var(--headline5);
+    font-weight: var(--headline5-weight);
+    line-height: var(--line-height-h5);
+}
 /* Download */
 
 
