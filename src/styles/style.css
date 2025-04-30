@@ -324,6 +324,7 @@ main{
     padding: 18px 28px;
     border-radius: 10px;
     align-items: center;
+    cursor: pointer;
 }
 
 .app-text p{
@@ -413,6 +414,7 @@ main{
     font-size: var(--btn-text);
     font-weight: var(--btn-weight);
     line-height: var(--line-height-btn);
+    cursor: pointer;
 }
 
 .card-price{
@@ -538,6 +540,7 @@ form select{
     font-size: var(--btn-text);
     font-weight: var(--btn-weight);
     line-height: var(--line-height-btn);
+    cursor: pointer;
 }
 /* Appointment*/
 
