@@ -341,4 +341,108 @@ main{
 }
 /* Download */
 
+/* Pricing */
+.pricing-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 96px;
+    margin-top: 200px;
+}
+
+.pricing-title h2{
+    font-size: var(--headline2);
+    font-weight: var(--headline2-weight);
+    line-height: var(--line-height-h2);
+}
+
+.pricing-title p{
+    font-size: var(--paragraph);
+    font-weight: var(--paragraph-weight);
+    line-height: var(--line-height-p);
+}
+
+.pricing-cards{
+    display: flex;
+    gap: 30px;    
+}
+
+.card-container{
+    display: flex;
+    background-color: var(--color-neutral-white);
+    border-radius: 10px;
+    padding: 50px;
+    gap: 30px;
+}
+
+.card-left-column{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 15px;
+}
+
+.card-left-column h3{
+    font-size: var(--headline3);
+    font-weight: var(--headline3-weight);
+    line-height: var(--line-height-h3);
+    color: var(--btn-primary);
+}
+
+.card-left-column p{
+    font-size: var(--paragraph);
+    font-weight: var(--headline6-weight);
+    line-height: var(--line-height-p);
+    color: var(--color-text);
+    width: 217px;
+}
+
+.card-right-column{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card-right-column button{
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: var(--btn-primary);
+    color: var(--color-neutral-white);
+    font-size: var(--btn-text);
+    font-weight: var(--btn-weight);
+    line-height: var(--line-height-btn);
+}
+
+.card-price{
+    display: flex;
+    gap: 10px;
+}
+
+.card-price h4{
+    font-size: var(--headline2);
+    font-weight: var(--headline2-weight);
+    line-height: var(--line-height-h2);
+    color: var(--btn-primary);
+}
+
+.text{
+    text-align: start;
+}
+
+.text h5{
+    font-size: var(--headline5);
+    font-weight: var(--headline5-weight);
+    line-height: var(--line-height-h5);
+    color: var(--btn-primary);
+}
+
+.text p{
+    font-size: var(--headline6);
+    font-weight: var(--headline6-weight);
+    line-height: var(--line-height-h6);
+    color: var(--color-light-blue);
+}
+/* Pricing */
+
 
