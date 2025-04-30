@@ -388,6 +388,7 @@ main{
     font-weight: var(--headline3-weight);
     line-height: var(--line-height-h3);
     color: var(--btn-primary);
+    text-transform: uppercase;
 }
 
 .card-left-column p{
@@ -434,7 +435,7 @@ main{
     font-size: var(--headline5);
     font-weight: var(--headline5-weight);
     line-height: var(--line-height-h5);
-    color: var(--btn-primary);
+    color: var(--btn-primary);    
 }
 
 .text p{
@@ -444,5 +445,36 @@ main{
     color: var(--color-light-blue);
 }
 /* Pricing */
+
+/* World */
+.world-container{
+    display: flex; 
+    justify-content: center;
+    gap: 152px;
+    margin-top: 220px;
+}
+
+.world-text{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 50px 0px;
+    gap: 15px;
+}
+
+.world-text h2{
+    font-size: var(--headline2);
+    font-weight: var(--headline2-weight);
+    line-height: var(--line-height-h2);  
+    width: 465px;  
+}
+
+.world-text p{
+    font-size: var(--paragraph);
+    font-weight: var(--paragraph-weight);
+    line-height: var(--line-height-p);
+    width: 455px;
+}
+/* World */
+
 
 
