@@ -476,5 +476,70 @@ main{
 }
 /* World */
 
+/* Appointment*/
+.appointment-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 151px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 50px;
+    align-items: center;
+    background-color: var(--color-neutral-white);
+    gap: 40px;
+}
+
+.form-container h2{
+    font-size: var(--headline3);
+    font-weight: var(--headline3-weight);
+    line-height: var(--line-height-h3); 
+    color: var(--color-background);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label{
+    font-size: var(--headline6);
+    font-weight: var(--headline6-weight);
+    line-height: var(--line-height-h6);
+    color: var(--color-background);
+}
+
+form input{
+    width: 507px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 23px;
+    background-color: var(--color-input-box);
+}
+
+form select{
+    width: 507px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0px 23px;
+    background-color: var(--color-input-box);
+    color: var(--color-text);
+}
+
+.form-container button{
+    width: 510px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: var(--btn-primary);
+    color: var(--color-neutral-white);
+    font-size: var(--btn-text);
+    font-weight: var(--btn-weight);
+    line-height: var(--line-height-btn);
+}
+/* Appointment*/
+
 
 
