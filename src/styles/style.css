@@ -187,6 +187,8 @@ main{
 }
 
 .better-text{
+    display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
@@ -771,9 +773,152 @@ footer{
         flex-direction: column;  
         cursor: pointer;      
     }
-
-    
     /* Header */
+
+    /* Main */
+    main{
+        flex-direction: column-reverse;
+        padding: 40px 50px 0px 50px;
+    }
+
+    .main-text-container h1{
+      font-size: var(--headline2);  
+    }
+
+    .main-text-container p{
+        text-align: center;
+        width: 300px;
+    }
+
+    .main-btn-box{
+        gap: 10px;
+    }
+    /* Main */
+
+    /* Better Strategy */
+    .better-strategy{
+        width: 100%;
+    }
+
+    .better-text{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+
+    .better-grid{
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+    }
+    /* Better Strategy */
+
+    /* What Clients */
+    .what-clients{
+        width: 100%;
+    }
+
+    .what-title{
+        width: 90%;
+    }
+
+    .regina-box{
+        width: 90%;
+        height: 400px;
+    }
+    /* What Clients */
+
+    /* Download */
+    .download-container{
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .download-title{
+        width: 90%; 
+    }
+
+    .app-box{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    /* Download */
+
+    /* Pricing */
+    .pricing-container{
+        width: 100%;
+        gap: 60px;
+        margin-top: 100px;
+    }
+
+    .pricing-title{
+        width: 90%;
+    }
+
+    .pricing-cards{
+        flex-direction: column;
+    }
+
+    .card-container{
+        padding: 20px;
+    }
+    /* Pricing */
+
+    /* World */
+    .world-container{
+        width: 100%;
+    }
+
+    .world-text{
+        width: 90%;
+        padding: 20px 0px;
+    }
+    /* World */
+   
+    /* Appointment */
+    .appointment-container{
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .appointment-container img{
+        display: none;
+    }
+
+    .form-container{
+        width: 90%;
+    }
+
+    form{
+        align-items: center;
+    }
+
+    form input{
+        width: 300px;
+    }
+
+    form select{
+        width: 300px;
+    }
+
+    .form-container button{
+        width: 300px;
+    }
+    /* Appointment */
+
+    /* Footer */
+    .footer-information{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-navigation{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Footer */
+
+
 }
 /* Responsividade - Mobile */
 
