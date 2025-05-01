@@ -658,8 +658,125 @@ footer{
 /* Footer */
 
 /* Responsividade - Tablet */
+ @media (max-width: 834px){
+    /* Header */
+    header{
+        justify-content: center;
+        padding: 10px 20px;
+        gap: 100px;
+    }
 
+    .button-container buttom{
+        width: 80%;
+    }
+    /* Header */
 
+    /* Main */
+    main{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .main-text-container{
+        justify-content: center;
+        margin-top: 0;
+    }
+    .main-text-container p{
+        width: 610px;
+        margin: 0 auto;
+    }
+    .main-btn-box{
+        justify-content: center;
+        gap: 100px;
+    }
+    /* Main */
+
+    /* Better Strategy */
+    .better-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* Better Strategy */
+
+    /* Downloads */
+    .app-box{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+    /* Downloads */
+
+    /* Pricing */
+    .pricing-container{
+        margin-top: 150px;
+    }
+
+    .pricing-cards{
+        width: 90%;
+    }
+
+    .card-left-column p{
+        width: 150px;
+    }
+    /* Pricing */
+
+    /* World */
+    .world-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        margin-top: 100px;
+    }
+    
+    .world-container img{
+        width: 70%;
+        gap: 10px;
+    }
+
+    .world-text{
+        align-items: center;
+    }
+
+    .world-text h2{
+        width: 100vw;
+        text-align: center;
+    }
+
+    .world-text p{
+        width: 90vw;
+        text-align: center;
+    }
+    /* World */
+
+    /* Footer */
+    .footer-information{
+        gap: 50px;
+    }
+    .footer-navigation{
+        gap: 50px;
+    }
+    /* Footer */
+
+ }
 /* Responsividade - Tablet */
+
+/* Responsividade - Mobile */
+@media (max-width: 480px){
+    /* Header */
+    .header-container, .header-links, .header-items{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;  
+        cursor: pointer;      
+    }
+
+    
+    /* Header */
+}
+/* Responsividade - Mobile */
+
+
 
 
