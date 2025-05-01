@@ -51,7 +51,7 @@ Ifinance é um site que desenvolvi a partir de um template no Figma, para testar
 3 - Abrir o arquivo index.html
 
 * Pode Pode também rodar o site sem baixar pelo link do guithub pages:
-* <a href="https://nikredfox.github.io/Financen/">Ifinance</a>
+* <a href="https://nikredfox.github.io/Ifinance/">Ifinance</a>
 
 <!-- MODELO DE PRÉ REQUISITOS -->
 ### Pré-requisitos
